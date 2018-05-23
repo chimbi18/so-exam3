@@ -32,7 +32,6 @@ hard linking op_stats.egg-info/dependency_links.txt -> op_stats-0.1.0/op_stats.e
 hard linking op_stats.egg-info/requires.txt -> op_stats-0.1.0/op_stats.egg-info
 hard linking op_stats.egg-info/top_level.txt -> op_stats-0.1.0/op_stats.egg-info
 Writing op_stats-0.1.0/setup.cfg
-creating .tox/dist
 creating '.tox/dist/op_stats-0.1.0.zip' and adding 'op_stats-0.1.0' to it
 adding 'op_stats-0.1.0/setup.py'
 adding 'op_stats-0.1.0/PKG-INFO'

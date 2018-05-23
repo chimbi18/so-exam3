@@ -1,0 +1,5 @@
+[
+  "tests/test_stats.py::testEstadoCPU",
+  "tests/test_stats.py::testEstadoDisco",
+  "tests/test_stats.py::testEstadoMemoria"
+]

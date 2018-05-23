@@ -1,0 +1,37 @@
+actionid: pytest
+msg: getenv
+cmdargs: ['/usr/bin/python3.4', '-m', 'virtualenv', '--python', '/bin/python3', 'pytest']
+
+Using base prefix '/usr'
+New python executable in /home/flaskdev/so-exam3/.tox/pytest/bin/python3
+Also creating executable in /home/flaskdev/so-exam3/.tox/pytest/bin/python
+Installing setuptools, pip, wheel...done.
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/virtualenv.py", line 2349, in <module>
+    main()
+  File "/usr/lib/python3.4/site-packages/virtualenv.py", line 712, in main
+    symlink=options.symlink)
+  File "/usr/lib/python3.4/site-packages/virtualenv.py", line 953, in create_environment
+    download=download,
+  File "/usr/lib/python3.4/site-packages/virtualenv.py", line 904, in install_wheel
+    call_subprocess(cmd, show_stdout=False, extra_env=env, stdin=SCRIPT)
+  File "/usr/lib/python3.4/site-packages/virtualenv.py", line 768, in call_subprocess
+    line = stdout.readline()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib64/python3.4/runpy.py", line 170, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.4/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3.4/site-packages/virtualenv.py", line 2349, in <module>
+    main()
+  File "/usr/lib/python3.4/site-packages/virtualenv.py", line 671, in main
+    raise SystemExit(popen.wait())
+  File "/usr/lib64/python3.4/subprocess.py", line 1573, in wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib64/python3.4/subprocess.py", line 1521, in _try_wait
+    (pid, sts) = _eintr_retry_call(os.waitpid, self.pid, wait_flags)
+  File "/usr/lib64/python3.4/subprocess.py", line 491, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+Running virtualenv with interpreter /bin/python3
